@@ -371,6 +371,8 @@ namespace NSwag.Generation.AspNetCore.Processors
 
         private OpenApiParameter AddBodyParameter(OperationProcessorContext context, ExtendedApiParameterDescription extendedApiParameter)
         {
+            Console.WriteLine($"Addign body parameter {extendedApiParameter.ApiParameter.Name}");
+
             OpenApiParameter operationParameter;
 
             var contextualParameterType = extendedApiParameter.ParameterType

@@ -208,9 +208,11 @@ namespace NSwag.Generation.WebApi
                 var operation = tuple.Item1;
                 var method = tuple.Item2;
 
+                Console.WriteLine($"Running processor for {controllerType.Name}, path {operation.Path}, http method {operation.Method}, method {method}");
                 var addOperation = RunOperationProcessors(document, controllerType, method, operation, allOperation, swaggerGenerator, schemaResolver);
                 if (addOperation)
                 {
+                    Console.WriteLine($"Adding operation for controller {controllerType.Name}, path {operation.Path}, http method {operation.Method}, method {method}");
                     var path = operation.Path.Replace("//", "/");
 
                     if (!document.Paths.ContainsKey(path))

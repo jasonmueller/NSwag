@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31912.275
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSwag.CodeGeneration", "NSwag.CodeGeneration\NSwag.CodeGeneration.csproj", "{75B3F91D-687E-4FB3-AD45-CCFA3C406DB4}"
 EndProject
@@ -171,6 +171,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSwag.Sample.NET60", "NSwag.Sample.NET60\NSwag.Sample.NET60.csproj", "{DE82965A-6935-43E0-A9A1-F3F35B4487EB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSwag.Sample.NET60Minimal", "NSwag.Sample.NET60Minimal\NSwag.Sample.NET60Minimal.csproj", "{24693FBC-445E-4360-A1E8-B6F136C563FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NJsonSchema", "..\..\NJsonSchema\src\NJsonSchema\NJsonSchema.csproj", "{238F7400-4F77-44B1-AB65-104C6EBDACFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1069,6 +1071,24 @@ Global
 		{24693FBC-445E-4360-A1E8-B6F136C563FB}.ReleaseTypeScriptStrict|x64.Build.0 = Release|Any CPU
 		{24693FBC-445E-4360-A1E8-B6F136C563FB}.ReleaseTypeScriptStrict|x86.ActiveCfg = Release|Any CPU
 		{24693FBC-445E-4360-A1E8-B6F136C563FB}.ReleaseTypeScriptStrict|x86.Build.0 = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Debug|x64.Build.0 = Debug|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Debug|x86.Build.0 = Debug|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Release|x64.ActiveCfg = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Release|x64.Build.0 = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Release|x86.ActiveCfg = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.Release|x86.Build.0 = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.ReleaseTypeScriptStrict|Any CPU.ActiveCfg = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.ReleaseTypeScriptStrict|Any CPU.Build.0 = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.ReleaseTypeScriptStrict|x64.ActiveCfg = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.ReleaseTypeScriptStrict|x64.Build.0 = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.ReleaseTypeScriptStrict|x86.ActiveCfg = Release|Any CPU
+		{238F7400-4F77-44B1-AB65-104C6EBDACFB}.ReleaseTypeScriptStrict|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

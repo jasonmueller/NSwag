@@ -1,4 +1,4 @@
-//-----------------------------------------------------------------------
+﻿//-----------------------------------------------------------------------
 // <copyright file="SwaggerJsonSchemaGenerator.cs" company="NJsonSchema">
 //     Copyright (c) Rico Suter. All rights reserved.
 // </copyright>
@@ -43,7 +43,15 @@ namespace NSwag.Generation
                 if (!schemaResolver.HasSchema(typeDescription.ContextualType.OriginalType, false))
                 {
                     _isRootType = true;
-                    Generate(typeDescription.ContextualType.OriginalType, schemaResolver);
+                    Console.WriteLine($"Generating for {typeDescription.ContextualType.TypeName}...");
+                    //try
+                    //{
+                        Generate(typeDescription.ContextualType.OriginalType, schemaResolver);
+                    //}
+                    //catch (Exception ex)
+                    //{
+                    //    Console.WriteLine($"Exception: {ex}");
+                    //}
                     _isRootType = false;
                 }
 
@@ -86,6 +94,8 @@ namespace NSwag.Generation
                     return new TSchemaType { Type = JsonObjectType.String, Format = JsonFormatStrings.Binary };
                 }
             }
+
+            Console.WriteLine($"Generating contextual type {contextualType.TypeName}...");
 
             return base.GenerateWithReferenceAndNullability(contextualType, isNullable, schemaResolver, transformation);
         }
